@@ -1,0 +1,5 @@
+<h1>Caching HTTP request</h1>
+<div *ngFor="let repo of repos | async">
+  <h2>{{repo.name}}</h2>
+  <h4>{{repo.description}}</h4>
+</div>
